@@ -1,0 +1,22 @@
+.hero-slider .slick-dots{
+position:absolute;
+bottom:20px;
+width:100%;
+}
+
+.hero-slider .slick-dots li button:before{
+color:white;
+font-size:12px;
+opacity:0.7;
+}
+
+.hero-slider .slick-dots li.slick-active button:before{
+color:#ff1744;
+opacity:1;
+}
+
+/* //movie page per text change  */
+body{
+font-family: 'Poppins', sans-serif;
+background:#0f0f0f;
+}
