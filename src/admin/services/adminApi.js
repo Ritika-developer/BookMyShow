@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const adminApi = axios.create({
-  baseURL: "http://localhost:8080/api",
+  baseURL: "https://bookmyshow-backend-gw5l.onrender.com/api",
   headers: {
     "Content-Type": "application/json",
   },

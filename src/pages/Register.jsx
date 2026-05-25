@@ -21,7 +21,7 @@ export default function Register() {
 
   const handleRegister = async () => {
     try {
-      await axios.post("http://localhost:8080/api/auth/register", data);
+      await axios.post("https://bookmyshow-backend-gw5l.onrender.com/api/auth/register", data);
       alert("Registered Successfully");
       navigate("/login");
     } catch (err) {

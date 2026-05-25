@@ -16,7 +16,7 @@ export default function Login() {
 
   const handleLogin = async () => {
   try {
-    const res = await axios.post("http://localhost:8080/api/auth/login", data);
+    const res = await axios.post("https://bookmyshow-backend-gw5l.onrender.com/api/auth/login", data);
 
     // 👉 Agar backend error bhej raha hai
     if (res.data.error) {
